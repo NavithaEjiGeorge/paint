@@ -122,7 +122,14 @@ player.collide(or)
 player.collide(tr)
 
 drawSprites();
-  
+ textSize(16);
+text("press on the colour to add colour",1115,60);
+
+text("press 'E' to use the eraser",1115,90);
+
+text("press 'R' to clear the screen",1115,120);
+
+text("use arrowkeys to move", 1115,150); 
 if(player.mousePressed){
   playerx=mouseX;
   player.y=mouseY;
